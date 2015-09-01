@@ -32,7 +32,7 @@ plan to launch a startup!", you can reply, "Nobody cares grandpa. I spent over
 
 \noindent
 
-> I started Coq 20 years ago and I haven't run a single program since!
+> I started using Coq 20 years ago and haven't run a single program since!
 >
 > -- _Dr. Richard Stallman_
 
