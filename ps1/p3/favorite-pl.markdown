@@ -18,7 +18,7 @@ libraries. Refactoring in Haskell is a easy [@haskell:sotu:maintenance].
 
 Haskell is great for _prototyping_. Hacking up a new system can be done quickly
 and reliably in Haskell because the compiler catches most of the "stupid"
-errors that come from writing lots of new code and fiercly editing existing
+errors that come from writing lots of new code and fiercely editing existing
 code.
 
 Haskell is great for _growing your prototype_ into a stable system. Integrate
@@ -27,8 +27,8 @@ bound checks, benchmark suites, etc. Start a small project, rapidly iterate and
 solidify it into a mature project, and use a language that shines every step of
 the way.
 
-Haskell has a lot more going for it than being a great langauge for putting
-ideas into code. Haskell has competative performance and a thriving community
+Haskell has a lot more going for it than being a great language for putting
+ideas into code. Haskell has competitive performance and a thriving community
 with a vast library ecosystem [@haskell:hackage]. Haskell is attractive both to
 academics who enjoy the ability to write code that looks like math, and to
 systems hackers who like to build robust programming abstractions. Facebook
