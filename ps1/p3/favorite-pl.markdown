@@ -1,46 +1,41 @@
-\noindent
-Do you feel inferior in your programming job?
-\vspace{1em}
+My favorite programming language is Haskell, and the reason is because it
+excels at one particular thing above all other programming languages:
+_refactoring_.
 
-\noindent
-Are other alpha-male nerds getting you down?
-\vspace{1em}
+After you modify a core function, embedded within a core library, upon which
+the rest of your system depends through possibly hundreds of code paths, I ask
+you this: how much work does it take for you to gain confidence that everything
+didn't just break? Haskell is best in show in this metric.
 
-\noindent
-Look no further than the latest-and-greatest
-wasn't-ever-intended-for-programming language that most people have never
-heard of: __Coq__.
-\vspace{1em}
+There are two ways we gain confidence in our programs: type-checking and
+testing. Type-checking is an _automated_ technique that _verifies_ a _simple_
+property for _all_ possible inputs of a program, while testing is a _manual
+effort_ technique that _increases confidence_ in a _complex_ property for
+_some_ possible inputs of a program. Neither approach is enough on its own; to
+be sure your program won't break you need to be using the very best tools for
+each. Haskell has the worlds best type checker and industry strength testing
+libraries. Refactoring in Haskell is a easy [@haskell:sotu:maintenance].
 
-\noindent
-Be a true programming hipster douche-bag and tell everyone else why their
-language sucks, and why one that sounds like a common term for genitalia is
-better.
-\vspace{1em}
+Haskell is great for _prototyping_. Hacking up a new system can be done quickly
+and reliably in Haskell because the compiler catches most of the "stupid"
+errors that come from writing lots of new code and fiercly editing existing
+code.
 
-\noindent
-As a user of Coq you'll learn lots of fancy buzzwords and quip phrases that
-make other programmer-bullies cower in admiration. _Type theory_.
-_Curry-Howard_. _Dependent types_. _Adam Chlipala uses it_.
-\vspace{1em}
+Haskell is great for _growing your prototype_ into a stable system. Integrate
+unit tests, whole-program tests, dependent types that statically prove array
+bound checks, benchmark suites, etc. Start a small project, rapidly iterate and
+solidify it into a mature project, and use a language that shines every step of
+the way.
 
-\noindent
-Next time some lay-person tells you "I built a website over the weekend and
-plan to launch a startup!", you can reply, "Nobody cares grandpa. I spent over
-20 hours yesterday formalizing basic arithmetic in Coq--Get a real job!"
-\vspace{1em}
+Haskell has a lot more going for it than being a great langauge for putting
+ideas into code. Haskell has competative performance and a thriving community
+with a vast library ecosystem [@haskell:hackage]. Haskell is attractive both to
+academics who enjoy the ability to write code that looks like math, and to
+systems hackers who like to build robust programming abstractions. Facebook
+uses Haskell in production [@haskell:haxl].
 
-\noindent
-
-> I started using Coq 20 years ago and haven't run a single program since!
->
-> -- _Dr. Richard Stallman_
-
-\vspace{1em}
-
-\noindent
-Decide today to learn Coq and liven up the water-cooler discussion at your
-workplace. Start by visiting this obscure looking French website:
-https://coq.inria.fr. Become a hero, and always be "that-guy" who won't shut up
-about his favorite programming language. Do it for science.
-
+I use Haskell because I find it enjoyable and because I like having a language
+that checks my work. Compilers are software and they should be automating as
+much work for you as possible. I use Haskell because the language is rapidly
+improving, and that gives me confidence as a long-term user. I use Haskell
+because Haskell, or one of its children, will be the future of programming.
